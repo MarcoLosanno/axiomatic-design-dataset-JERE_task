@@ -33,17 +33,9 @@ The annotations were conducted using [Doccano](https://doccano.github.io/doccano
 #### `dataset/`
 This folder contains the annotated dataset in jsonl format:
 
-- **axiomatic_dataset_doccano.jsonl**  
-  The dataset uses the following entity tags:  
-  - D: Doer  
-  - A: Action  
-  - R: Receiver  
-  - P: Design Parameter  
-
-  And the following relation types:  
-  - Doer  
-  - Receiver  
-  - AXR  
+- **axiomatic_dataset_doccano.jsonl**
+  - **Entity tags**: D (Doer), A (Action), R (Receiver), P (Design Parameter)
+  - **Relation types**: Doer, Receiver, AXR 
 
 #### `doccano_config/`
 This folder includes the JSON configuration file for Doccano, defining:
