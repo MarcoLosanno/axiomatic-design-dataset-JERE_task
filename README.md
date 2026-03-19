@@ -11,16 +11,16 @@ The dataset consists of 6,000 annotated sentences and it supports the both named
 
 ### Named Entity Recognition (NER)
 As illustrated in Fig. 1, the dataset includes token-level annotations for Axiomatic Design entities:
-- **Doer**: The entity required to perform the action described in a FR.
-- **Action**: The action of the FR that must be performed by the Doer.
-- **Receiver**: The entity affected by the action.
-- **Design Parameter (DP)**: A measurable attribute of a component that designers define and adjust within its feasible range to satisfy one or more functional requirements.
+- **Doer**: The entity that is required to perform the Action described in a FR.
+- **Action**: An action required to be performed by a system, product, or product component.
+- **Receiver**: The entity affected by the Action described in a FR.
+- **Design Parameter (DP)**: a physical quantity that characterises the design of a system, product, or product component.
 
 ### Joint Entity and Relation Extraction (JERE)
 As illustrated in Fig. 1, the dataset includes relation annotation between Axiomatic Design NER entity:
-- **Doer**: 
-- **Receiver**: 
-- **Axiomatic**:
+- **Doer**: links a Doer to its Action.
+- **Receiver**: links an Action to its Receiver.
+- **AXR**: links a DP to the Action of the FR which influences.
 
 ![Dataset Overview](https://github.com/MarcoLosanno/axiomatic-design-dataset-JERE_task/blob/main/img/annotation_example_git.svg)
 
@@ -31,9 +31,18 @@ The annotations were conducted using [Doccano](https://doccano.github.io/doccano
 ### Repository Structure
 
 #### `dataset/`
-This folder contains the annotated dataset in two formats:
-1. **`axiomatic_dataset.xlsx`**: Dataset in Excel format.
-2. **`axiomatic_dataset_doccano.jsonl`**: For seamless import into the Doccano annotation tool.
+This folder contains the annotated dataset in jsonl format:
+
+- **axiomatic_dataset_doccano.jsonl**
+  The dataset uses the following entity tags:
+  - D: Doer
+  - A: Action
+  - R: Receiver
+  - P: Design Parameter
+  And the following relation types:
+  - Doer
+  - Receiver
+  - AXR
 
 #### `doccano_config/`
 This folder includes the JSON configuration file for Doccano, defining:
