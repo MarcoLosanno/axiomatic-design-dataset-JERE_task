@@ -1,0 +1,82 @@
+[
+  {
+    "id": 15,
+    "text": "D",
+    "prefixKey": null,
+    "suffixKey": "d",
+    "backgroundColor": "#73D8FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 16,
+    "text": "R",
+    "prefixKey": null,
+    "suffixKey": "r",
+    "backgroundColor": "#68BC00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 17,
+    "text": "A",
+    "prefixKey": null,
+    "suffixKey": "a",
+    "backgroundColor": "#F44E3B",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 18,
+    "text": "P",
+    "prefixKey": null,
+    "suffixKey": "p",
+    "backgroundColor": "#FCDC00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 19,
+    "text": "AX",
+    "prefixKey": null,
+    "suffixKey": "x",
+    "backgroundColor": "#FDA1FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 20,
+    "text": "N",
+    "prefixKey": null,
+    "suffixKey": "n",
+    "backgroundColor": "#0C797D",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 11613,
+    "text": "FUN",
+    "prefixKey": null,
+    "suffixKey": "f",
+    "backgroundColor": "#0062B1",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 11614,
+    "text": "STR",
+    "prefixKey": null,
+    "suffixKey": "s",
+    "backgroundColor": "#FB9E00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 11615,
+    "text": "MIX",
+    "prefixKey": null,
+    "suffixKey": "m",
+    "backgroundColor": "#653294",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 11616,
+    "text": "OTH",
+    "prefixKey": null,
+    "suffixKey": "o",
+    "backgroundColor": "#C5C5CD",
+    "textColor": "#ffffff"
+  }
+]
