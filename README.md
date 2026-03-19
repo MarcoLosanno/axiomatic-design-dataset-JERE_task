@@ -22,7 +22,7 @@ As illustrated in Fig. 1, the dataset includes relation annotation between Axiom
 - **Receiver**: 
 - **Axiomatic**:
 
-![Dataset Overview](https://github.com/MarcoLosanno/axiomatic-design-dataset-JERE_task/blob/main/img/annot_example.svg)
+![Dataset Overview](https://github.com/MarcoLosanno/axiomatic-design-dataset-JERE_task/blob/main/img/annotation_example.svg)
 
 **Fig. 1** - *Example of annotated sentence for NER and JERE task.*
 
