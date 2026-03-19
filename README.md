@@ -33,7 +33,7 @@ The annotations were conducted using [Doccano](https://doccano.github.io/doccano
 #### `dataset/`
 This folder contains the annotated dataset in jsonl format:
 
-- **axiomatic_dataset_doccano.jsonl**
+- **6000_axiomatic_dataset.jsonl**
   - **Entity tags**: D (Doer), A (Action), R (Receiver), P (Design Parameter)
   - **Relation types**: Doer, Receiver, AXR 
 
@@ -43,4 +43,4 @@ This folder includes the JSON configuration file for Doccano, defining:
 - **`label_config_rel.json`**: configuration file for relation tags.
 
 ### How to Use
-1. Import `axiomatic_dataset_doccano.jsonl`file into [Doccano](https://doccano.github.io/doccano/) for visualization or further annotation.
+1. Import `6000_axiomatic_dataset.jsonl`file into [Doccano](https://doccano.github.io/doccano/) for visualization or further annotation.
