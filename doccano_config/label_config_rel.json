@@ -1,0 +1,34 @@
+[
+  {
+    "id": 6,
+    "text": "Doer",
+    "prefixKey": null,
+    "suffixKey": "d",
+    "backgroundColor": "#73D8FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 7,
+    "text": "Receiver",
+    "prefixKey": null,
+    "suffixKey": "r",
+    "backgroundColor": "#68BC00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 8,
+    "text": "Axiomatic",
+    "prefixKey": null,
+    "suffixKey": "x",
+    "backgroundColor": "#FDA1FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 9,
+    "text": "Neg",
+    "prefixKey": null,
+    "suffixKey": "n",
+    "backgroundColor": "#0C797D",
+    "textColor": "#ffffff"
+  }
+]
